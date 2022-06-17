@@ -4,7 +4,7 @@ function handleClick() {
     if (enabled) {
         browser.browserAction.setIcon({
             path: {
-                256: "img/off.png"
+                256: "../img/off.png"
             }
         });
         enabled = false;
@@ -13,7 +13,7 @@ function handleClick() {
     else {
         browser.browserAction.setIcon({
             path: {
-                256: "img/on.png"
+                256: "../img/on.png"
             }
         });
         enabled = true;

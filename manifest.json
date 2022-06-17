@@ -12,7 +12,7 @@
         "<all_urls>"
       ],
       "js": [
-        "content.js"
+        "js/content.js"
       ]
     }
   ],
@@ -22,7 +22,7 @@
   },
   "background": {
     "scripts": [
-      "background.js"
+      "js/background.js"
     ]
   }
 }
