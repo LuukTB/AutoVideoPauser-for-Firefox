@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AutoVideoPauser",
-  "version": "1.1",
+  "version": "1.0",
   "description": "Automaticity pause a video when you switch to another tab.",
   "icons": {
     "256": "img/on.png"
