@@ -1,1 +1,1 @@
-# AutoVedeoPauser for Firefox
+# AutoVideoPauser for Firefox
