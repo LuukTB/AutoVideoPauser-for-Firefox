@@ -3,7 +3,7 @@ Firefox add-on that automaticity pauses a video when you switch to another tab.
 
 ## How to use
 Switch to another tab to pause the video.
-Go back and the video will play again.
+Switch back and the video will play again.
 
 Press the browser action button to enable/disable the add-on.
 If the browser action button is blue, the add-on is enabled.
