@@ -1,8 +1,7 @@
 # AutoVideoPauser for Firefox
-Firefox add-on that Automatically pauses a video when you switch to another tab.
+Firefox add-on that Automatically pauses a video when you switch to another tab
 
-## How to add
-You can add it as a temporary add-on by going to about:debugging#/runtime/this-firefox. Then press the 'Load Temporary Add-on' button and select the manifest.json file.
+[![get-the-addon](https://user-images.githubusercontent.com/103427136/174452046-b3f496b6-d139-4e38-a9ab-29a22de7d9c1.png)](https://addons.mozilla.org/nl/firefox/addon/autovideopauserffx/)
 
 ## How to use
 Switch to another tab to pause the video.
