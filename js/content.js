@@ -12,17 +12,20 @@ document.addEventListener('focus', function () {
 });
 
 function handleResponse(message) {
-    console.log(message.response);
     if (!message.response == true)
         return;
 
     var vids = document.getElementsByTagName('video');
-    for (let i = 0; i < vids.length; i++) {
-        let vid = vids[i];
-        if (isLeaving)
-            vid.pause();
-        else
-            vid.play();
+    if (!document.contains(vids[0]))
+        return;
+
+    if (isLeaving) {
+        for (let i = 0; i < vids.length; i++) {
+            vids[i].pause();
+        }
+    }
+    else {
+        vids[0].play();
     }
 }
 function notifyBackgroundPage(e) {
